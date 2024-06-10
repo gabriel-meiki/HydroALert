@@ -54,7 +54,7 @@ header{
 
 .intro{
     text-align: center;
-    padding: 2rem 4rem;
+    padding: 1.5rem 4rem;
     background-color: aquamarine;
 }
 
@@ -66,19 +66,23 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .video iframe{
-    height: 214px;
-    width: 380px;
+    height: 180px;
+    width: 85%;
     top: 50%;
     left: 50%;
     transform: translate(2%, 0%);
 }
 
 .video .btn-ingles{
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+.video .btn-ingles button{
+    color: black;
 }
 
 .video .btn-ingles button{
@@ -90,9 +94,37 @@ header{
     cursor: pointer;
 }
 
+.sobre{
+    padding-top: 1.5rem;
+}
+
+.sobre h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: darkblue;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 170px;
+}
+
 @media screen and (max-width: 730px) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1.5rem 2rem;
     }
     .nav-item {
         display: none;
