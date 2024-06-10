@@ -6,6 +6,10 @@
     font-family: "Inter", sans-serif;
 }
 
+body{
+    width: 100%;
+}
+
 header{
     background-color: lightblue;
     box-shadow: 0px 3px 10px #464646;
@@ -54,13 +58,35 @@ header{
 
 .intro{
     text-align: center;
-    padding: 1.5rem 4rem;
+    height: 225px;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro h2{
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
 }
+
+.problema{
+    padding: 0.8rem 2rem;
+}
+
+.problema h2{
+    padding-bottom: 12px;;
+}
+
+.problema ul{
+    list-style-position: inside;
+}
+
+.problema ul li{
+    padding-bottom: 7px;
+}
+
 
 .video{
     display: flex;
@@ -70,15 +96,15 @@ header{
 }
 
 .video iframe{
-    height: 180px;
-    width: 85%;
+    height: 228px;
+    width: 93%;
     top: 50%;
     left: 50%;
-    transform: translate(2%, 0%);
+    transform: translate(1%, 6%);
 }
 
 .video .btn-ingles{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .video .btn-ingles button{
@@ -87,11 +113,16 @@ header{
 
 .video .btn-ingles button{
     background-color: rgb(121, 121, 228);
-    padding: 10px 15px;
+    padding: 12px 25px;
+    font-size: 1.2rem;
     border-radius: 10px;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .sobre{
@@ -120,6 +151,37 @@ header{
     flex-direction: column;
     align-items: center;
     height: 170px;
+}
+
+.links div{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    gap: 20px;
+}
+
+.links div a{
+    background-color: rgb(121, 121, 228);
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    gap: 20px;
+
+}
+
+footer{
+    background-color: darkblue;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 730px) {
