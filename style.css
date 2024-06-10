@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-color: lightblue;
+    background-color: #061C58;
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -27,7 +27,7 @@ header{
 }
 
 .logo h1{
-    color: white;
+    color: #E8EEFF;
 }
 
 .nav-list{
@@ -48,7 +48,7 @@ header{
 .nav-link{
     text-decoration: none;
     font-size: 1.15rem;
-    color: black;
+    color: #E8EEFF;
     font-weight: 400;
 }
 
@@ -60,10 +60,12 @@ header{
     text-align: center;
     height: 225px;
     background-color: aquamarine;
+    background-image: radial-gradient(#4677FF, #061C58 74%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #E8EEFF;
 }
 
 .intro h2{
@@ -73,10 +75,18 @@ header{
 
 .problema{
     padding: 0.8rem 2rem;
+    background-color: #061C58;
+    color: #E8EEFF;
 }
 
 .problema h2{
     padding-bottom: 12px;;
+}
+
+.problema a{
+    text-decoration: none;
+    color: #4677FF;
+    font-weight: bold;
 }
 
 .problema ul{
@@ -93,6 +103,9 @@ header{
     flex-direction: column;
     align-items: center;
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #061C58;
+    color: #E8EEFF;
 }
 
 .video iframe{
@@ -108,12 +121,13 @@ header{
 }
 
 .video .btn-ingles button{
-    color: black;
+    color: #E8EEFF;
+    text-shadow: 1px 1px #010511;
 }
 
 .video .btn-ingles button{
-    background-color: rgb(121, 121, 228);
-    padding: 12px 25px;
+    background-color: #4677FF;
+    padding: 12px 19px;
     font-size: 1.2rem;
     border-radius: 10px;
     font-weight: bold;
@@ -125,6 +139,10 @@ header{
     width: 300px;
 }
 
+.video img{
+    width: 35px;
+}
+
 .sobre{
     padding-top: 1.5rem;
 }
@@ -132,6 +150,7 @@ header{
 .sobre h2{
     text-align: center;
     padding-bottom: 10px;
+    margin: auto;
 }
 
 .cards{
@@ -142,7 +161,7 @@ header{
 }
 
 .card{
-    background-color: darkblue;
+    background-color: #061C58;
     padding: 20px;
     margin: 10px;
     width: 350px;
@@ -151,6 +170,19 @@ header{
     flex-direction: column;
     align-items: center;
     height: 170px;
+    color: #E8EEFF;
+}
+
+.icone{
+    padding-bottom: 5px;
+}
+
+.card h3{
+    padding-bottom: 8px;
+}
+
+.icon{
+    width: 50px;
 }
 
 .links div{
@@ -161,7 +193,7 @@ header{
 }
 
 .links div a{
-    background-color: rgb(121, 121, 228);
+    background-color: #4677FF;
     padding: 12px 25px;
     font-size: 1.2rem;
     border-radius: 10px;
@@ -170,18 +202,24 @@ header{
     display: flex;
     align-items: center;
     text-align: center;
-    color: black;
+    color: #E8EEFF;
+    text-shadow: 1px 1px #010511;
     text-decoration: none;
     font-weight: bold;
     gap: 20px;
 
 }
 
+.links img{
+    width: 25px;
+}
+
 footer{
-    background-color: darkblue;
+    background-color: #061C58;
     color: white;
     padding: 1.5rem;
     text-align: center;
+    text-shadow: 1px 1px #010511
 }
 
 @media screen and (max-width: 730px) {
