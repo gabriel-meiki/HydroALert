@@ -80,7 +80,8 @@ header{
 }
 
 .problema h2{
-    padding-bottom: 12px;;
+    padding-bottom: 12px;
+    font-size: 1.5rem;
 }
 
 .problema a{
@@ -102,10 +103,17 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background-color: #061C58;
     color: #E8EEFF;
+}
+
+.video h2{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
 }
 
 .video iframe{
@@ -117,7 +125,8 @@ header{
 }
 
 .video .btn-ingles{
-    padding-top: 30px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .video .btn-ingles button{
@@ -136,7 +145,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    gap: 10px;
 }
 
 .video img{
@@ -149,7 +158,8 @@ header{
 
 .sobre h2{
     text-align: center;
-    padding-bottom: 10px;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
     margin: auto;
 }
 
@@ -169,7 +179,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 170px;
+    height: 190px;
     color: #E8EEFF;
 }
 
